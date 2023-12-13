@@ -9,16 +9,16 @@ const Products = () => (
     </p>
     <ul>
       <li>
-        <NavLink to={"/products/1"}>Product 1</NavLink>
+        <NavLink to={"1"}>Product 1</NavLink>
       </li>
       <li>
-        <NavLink to={"/products/2"}>Product 2</NavLink>
+        <NavLink to={"2"}>Product 2</NavLink>
       </li>
       <li>
-        <NavLink to={"/products/3"}>Product 3</NavLink>
+        <NavLink to={"3"}>Product 3</NavLink>
       </li>
       <li>
-        <NavLink to={"/products/4"}>Product 4</NavLink>
+        <NavLink to={"4"}>Product 4</NavLink>
       </li>
     </ul>
   </section>

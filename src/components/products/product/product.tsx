@@ -1,13 +1,13 @@
 import { useParams } from "react-router-dom";
 
 const Product = () => {
-  const params = useParams();
+  const { productId } = useParams();
 
   return (
     <section className="content has-text-centered">
-      <p>Welcome to the page for product: {params.productId}</p>
+      <p>Welcome to the page for product:</p>
       <p>
-        <strong className="is-size-1"> {params.productId} </strong>
+        <strong className="is-size-1"> {productId} </strong>
       </p>
     </section>
   );
